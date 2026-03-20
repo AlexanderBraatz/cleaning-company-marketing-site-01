@@ -143,7 +143,7 @@ const obj = {
 					DEFAULT: '#000000',
 					primary: '#000000',
 					secondary: '#aaaaaa',
-					alternative: '#0ff',
+					alternative: '#f44fff',
 					success: '#027a48',
 					error: '#b42318'
 				},

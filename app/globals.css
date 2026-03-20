@@ -35,3 +35,6 @@ h6 {
 	font-family: var(--font-sabon), Georgia, serif;
 	text-transform: uppercase;
 }
+p {
+	font-family: var(--font-lexend-deca), Arial, sans-serif;
+}
