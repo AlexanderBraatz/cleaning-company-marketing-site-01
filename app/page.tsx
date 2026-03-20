@@ -23,11 +23,11 @@ export default function Page() {
 			<Header5 />
 			<Layout360 />
 			<Layout394 />
-			{/* <Layout514 /> */}
-			{/* <Layout513 /> */}
+			<Layout514 />
+			<Layout513 />
 			<Team2 />
-			{/* <Gallery24 /> */}
-			{/* <Testimonial22 /> */}
+			<Gallery24 />
+			<Testimonial22 />
 			<Cta25 />
 			<Stats1 />
 			<Logo6 />

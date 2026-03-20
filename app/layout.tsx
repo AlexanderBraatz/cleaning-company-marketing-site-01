@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +11,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const sabon = localFont({
+  src: [
+    { path: "./fonts/sabon/Sabon.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/sabon/SabonItalic.ttf", weight: "400", style: "italic" },
+    { path: "./fonts/sabon/SabonBold.ttf", weight: "700", style: "normal" },
+    { path: "./fonts/sabon/SabonBoldItalic.ttf", weight: "700", style: "italic" },
+  ],
+  variable: "--font-sabon",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +36,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${sabon.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
