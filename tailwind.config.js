@@ -65,6 +65,16 @@ const obj = {
 			'10xl': ['3.5rem', { lineHeight: '1.2' }]
 		},
 
+		borderRadius: {
+			sm: '0',
+			md: '0',
+			lg: '0',
+			xl: '0',
+			'2xl': '0',
+			'3xl': '0',
+			full: '9999px'
+		},
+
 		extend: {
 			spacing: {
 				px: '1px',
@@ -101,19 +111,45 @@ const obj = {
 
 			colors: {
 				brand: {
-					black: '#000000',
+					black: '#0C0A0D',
 					white: '#ffffff'
 				},
 				neutral: {
-					DEFAULT: '#666666',
-					black: '#000000',
+					DEFAULT: '#858486',
 					white: '#ffffff',
-					lightest: '#eeeeee',
-					lighter: '#cccccc',
-					light: '#aaaaaa',
-					dark: '#444444',
-					darker: '#222222',
-					darkest: '#111111'
+					lightest: '#F2F2F2',
+					lighter: '#DADADA',
+					light: '#B6B5B6',
+					dark: '#545355',
+					darker: '#242225',
+					darkest: '#0C0A0D'
+				},
+				mauve: {
+					DEFAULT: '#EDC8FF',
+					lightest: '#FDF9FF',
+					lighter: '#FBF4FF',
+					light: '#F2D8FF',
+					dark: '#BDA0CC',
+					darker: '#5E5066',
+					darkest: '#473C4C'
+				},
+				astra: {
+					DEFAULT: '#F7FABC',
+					lightest: '#FEFEF8',
+					lighter: '#FDFEF1',
+					light: '#F9FBD0',
+					dark: '#C5C896',
+					darker: '#62644B',
+					darkest: '#4A4B38'
+				},
+				'french-pass': {
+					DEFAULT: '#C1FDFD',
+					lightest: '#F8FEFE',
+					lighter: '#F2FEFE',
+					light: '#D3FDFD',
+					dark: '#9ACACA',
+					darker: '#4D6565',
+					darkest: '#394B4B'
 				},
 				system: {
 					'success-green': '#027a48',
@@ -122,36 +158,45 @@ const obj = {
 					'error-red-light': '#fef3f2'
 				},
 				background: {
-					DEFAULT: '#ffffff',
-					primary: '#ffffff',
-					secondary: '#eeeeee',
-					tertiary: '#666666',
-					alternative: '#0440b0',
-					success: '#ecfdf3',
-					error: '#fef3f2'
+					DEFAULT: 'var(--background)',
+					primary: 'var(--background-primary)',
+					secondary: 'var(--background-secondary)',
+					tertiary: 'var(--background-tertiary)',
+					alternative: 'var(--background-alternative)',
+					success: 'var(--background-success)',
+					error: 'var(--background-error)'
+				},
+				foreground: {
+					DEFAULT: 'var(--foreground)',
+					primary: 'var(--foreground-primary)',
+					secondary: 'var(--foreground-secondary)',
+					tertiary: 'var(--foreground-tertiary)',
+					alternative: 'var(--foreground-alternative)',
+					success: 'var(--foreground-success)',
+					error: 'var(--foreground-error)'
 				},
 				border: {
-					DEFAULT: '#000000',
-					primary: '#000000',
-					secondary: '#aaaaaa',
-					tertiary: '#444444',
-					alternative: '#ffffff',
-					success: '#027a48',
-					error: '#b42318'
+					DEFAULT: 'var(--border)',
+					primary: 'var(--border-primary)',
+					secondary: 'var(--border-secondary)',
+					tertiary: 'var(--border-tertiary)',
+					alternative: 'var(--border-alternative)',
+					success: 'var(--border-success)',
+					error: 'var(--border-error)'
 				},
 				text: {
-					DEFAULT: '#000000',
-					primary: '#000000',
-					secondary: '#aaaaaa',
-					alternative: '#f44fff',
-					success: '#027a48',
-					error: '#b42318'
+					DEFAULT: 'var(--text)',
+					primary: 'var(--text-primary)',
+					secondary: 'var(--text-secondary)',
+					alternative: 'var(--text-alternative)',
+					success: 'var(--text-success)',
+					error: 'var(--text-error)'
 				},
 				link: {
-					DEFAULT: '#000000',
-					primary: '#000000',
-					secondary: '#666666',
-					alternative: '#ffffff'
+					DEFAULT: 'var(--link)',
+					primary: 'var(--link-primary)',
+					secondary: 'var(--link-secondary)',
+					alternative: 'var(--link-alternative)'
 				}
 			},
 
@@ -159,7 +204,7 @@ const obj = {
 				DEFAULT: {
 					css: [
 						{
-							color: '#000000',
+							color: '#0C0A0D',
 							lineHeight: '1.5',
 							maxWidth: '100%',
 							p: {

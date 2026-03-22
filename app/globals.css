@@ -1,9 +1,120 @@
 @import 'tailwindcss';
 @config '../tailwind.config.js';
 
-:root {
+/* :root {
 	--background: #ffffff;
 	--foreground: #171717;
+} */
+
+:root {
+	/* BACKGROUND */
+	--background: #ffffff;
+	--background-primary: #ffffff;
+	--background-secondary: #f2f2f2;
+	--background-tertiary: #fdf9ff;
+	--background-alternative: #473c4c;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(12, 10, 13, 0.15);
+	--border-primary: rgba(12, 10, 13, 0.15);
+	--border-secondary: #b6b5b6;
+	--border-tertiary: rgba(12, 10, 13, 0.15);
+	--border-alternative: rgba(255, 255, 255, 0.2);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #0c0a0d;
+	--text-primary: #0c0a0d;
+	--text-secondary: #858486;
+	--text-alternative: #ffffff;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* LINKS */
+	--link: #0c0a0d;
+	--link-primary: #0c0a0d;
+	--link-secondary: #858486;
+	--link-alternative: #ffffff;
+}
+
+.theme-light-pink {
+	/* BACKGROUND */
+	--background: #fff4f8;
+	--background-primary: #fff4f8;
+	--background-secondary: #fde3ec;
+	--background-tertiary: #fff7fb;
+	--background-alternative: #3a1025;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #2bc34a;
+	--foreground-primary: #fff4f8;
+	--foreground-secondary: #fde3ec;
+	--foreground-tertiary: #fff7fb;
+	--foreground-alternative: #3a1025;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(58, 16, 37, 0.15);
+	--border-primary: rgba(58, 16, 37, 0.15);
+	--border-secondary: #e6b8c9;
+	--border-tertiary: rgba(58, 16, 37, 0.15);
+	--border-alternative: rgba(255, 255, 255, 0.2);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #3a1025;
+	--text-primary: #3a1025;
+	--text-secondary: #7a5062;
+	--text-alternative: #ffffff;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* LINKS */
+	--link: #3a1025;
+	--link-primary: #3a1025;
+	--link-secondary: #7a5062;
+	--link-alternative: #ffffff;
+}
+
+.theme-dark-green {
+	/* BACKGROUND */
+	--background: #0f1f17;
+	--background-primary: #0f1f17;
+	--background-secondary: #173126;
+	--background-tertiary: #1f3d2f;
+	--background-alternative: #edf8f0;
+	--background-success: #123d2a;
+	--background-error: #3d1f1f;
+
+	/* BORDER */
+	--border: rgba(237, 248, 240, 0.15);
+	--border-primary: rgba(237, 248, 240, 0.15);
+	--border-secondary: #2f5a45;
+	--border-tertiary: rgba(237, 248, 240, 0.15);
+	--border-alternative: rgba(255, 255, 255, 0.2);
+	--border-success: #4caf7a;
+	--border-error: #d05c5c;
+
+	/* TEXT */
+	--text: #edf8f0;
+	--text-primary: #edf8f0;
+	--text-secondary: #b7d3bf;
+	--text-alternative: #0f1f17;
+	--text-success: #4caf7a;
+	--text-error: #ff8a8a;
+
+	/* LINKS */
+	--link: #edf8f0;
+	--link-primary: #edf8f0;
+	--link-secondary: #b7d3bf;
+	--link-alternative: #0f1f17;
 }
 
 @theme inline {

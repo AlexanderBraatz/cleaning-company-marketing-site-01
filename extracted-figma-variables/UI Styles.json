@@ -1,0 +1,79 @@
+{
+	"id": "VariableCollectionId:6494:55048",
+	"name": "UI Styles",
+	"modes": { "6494:1": "Mode 1" },
+	"variableIds": [
+		"VariableID:6495:55052",
+		"VariableID:6495:55053",
+		"VariableID:6495:55054",
+		"VariableID:6494:55049",
+		"VariableID:6494:55050"
+	],
+	"variables": [
+		{
+			"id": "VariableID:6494:55049",
+			"name": "Stroke/Border Width",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6494:1": 0 },
+			"resolvedValuesByMode": {
+				"6494:1": { "resolvedValue": 0, "alias": null }
+			},
+			"scopes": ["STROKE_FLOAT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6494:55050",
+			"name": "Stroke/Divider Width",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6494:1": 1 },
+			"resolvedValuesByMode": {
+				"6494:1": { "resolvedValue": 1, "alias": null }
+			},
+			"scopes": ["STROKE_FLOAT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6495:55052",
+			"name": "Radius/Small",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6494:1": 0 },
+			"resolvedValuesByMode": {
+				"6494:1": { "resolvedValue": 0, "alias": null }
+			},
+			"scopes": ["CORNER_RADIUS"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6495:55053",
+			"name": "Radius/Medium",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6494:1": 0 },
+			"resolvedValuesByMode": {
+				"6494:1": { "resolvedValue": 0, "alias": null }
+			},
+			"scopes": ["CORNER_RADIUS"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6495:55054",
+			"name": "Radius/Large",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6494:1": 0 },
+			"resolvedValuesByMode": {
+				"6494:1": { "resolvedValue": 0, "alias": null }
+			},
+			"scopes": ["CORNER_RADIUS"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		}
+	]
+}

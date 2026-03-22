@@ -1,0 +1,174 @@
+{
+	"id": "VariableCollectionId:6743:2",
+	"name": "Typography",
+	"modes": { "6743:0": "Desktop", "6743:2": "Mobile" },
+	"variableIds": [
+		"VariableID:6743:3",
+		"VariableID:6743:4",
+		"VariableID:6743:5",
+		"VariableID:6743:6",
+		"VariableID:6743:7",
+		"VariableID:6743:8",
+		"VariableID:6745:59123",
+		"VariableID:6745:59124",
+		"VariableID:6745:59125",
+		"VariableID:6745:59126",
+		"VariableID:6745:59127"
+	],
+	"variables": [
+		{
+			"id": "VariableID:6743:3",
+			"name": "Text Sizes/Heading 1",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 84, "6743:2": 40 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 84, "alias": null },
+				"6743:2": { "resolvedValue": 40, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6743:4",
+			"name": "Text Sizes/Heading 2",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 60, "6743:2": 36 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 60, "alias": null },
+				"6743:2": { "resolvedValue": 36, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6743:5",
+			"name": "Text Sizes/Heading 3",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 48, "6743:2": 32 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 48, "alias": null },
+				"6743:2": { "resolvedValue": 32, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6743:6",
+			"name": "Text Sizes/Heading 4",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 40, "6743:2": 24 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 40, "alias": null },
+				"6743:2": { "resolvedValue": 24, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6743:7",
+			"name": "Text Sizes/Heading 5",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 32, "6743:2": 20 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 32, "alias": null },
+				"6743:2": { "resolvedValue": 20, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6743:8",
+			"name": "Text Sizes/Heading 6",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 26, "6743:2": 18 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 26, "alias": null },
+				"6743:2": { "resolvedValue": 18, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59123",
+			"name": "Text Sizes/Text Large",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 26, "6743:2": 18 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 26, "alias": null },
+				"6743:2": { "resolvedValue": 18, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59124",
+			"name": "Text Sizes/Text Medium",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 20, "6743:2": 16 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 20, "alias": null },
+				"6743:2": { "resolvedValue": 16, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59125",
+			"name": "Text Sizes/Text Regular",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 18, "6743:2": 16 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 18, "alias": null },
+				"6743:2": { "resolvedValue": 16, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59126",
+			"name": "Text Sizes/Text Small",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 16, "6743:2": 14 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 16, "alias": null },
+				"6743:2": { "resolvedValue": 14, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59127",
+			"name": "Text Sizes/Text Tiny",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6743:0": 12, "6743:2": 12 },
+			"resolvedValuesByMode": {
+				"6743:0": { "resolvedValue": 12, "alias": null },
+				"6743:2": { "resolvedValue": 12, "alias": null }
+			},
+			"scopes": ["FONT_SIZE"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		}
+	]
+}

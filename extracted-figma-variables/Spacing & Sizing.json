@@ -1,0 +1,219 @@
+{
+	"id": "VariableCollectionId:6745:59107",
+	"name": "Spacing & Sizing",
+	"modes": { "6745:3": "Desktop", "6745:4": "Mobile" },
+	"variableIds": [
+		"VariableID:6745:59111",
+		"VariableID:6745:59110",
+		"VariableID:6745:59109",
+		"VariableID:6745:59118",
+		"VariableID:6745:59117",
+		"VariableID:6745:59114",
+		"VariableID:6745:59113",
+		"VariableID:6745:59116",
+		"VariableID:6745:59115",
+		"VariableID:6745:59112",
+		"VariableID:6745:59122",
+		"VariableID:6745:59121",
+		"VariableID:6745:59120",
+		"VariableID:6745:59119"
+	],
+	"variables": [
+		{
+			"id": "VariableID:6745:59109",
+			"name": "Container/container-small",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 768, "6745:4": 768 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 768, "alias": null },
+				"6745:4": { "resolvedValue": 768, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59110",
+			"name": "Container/container-medium",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 1024, "6745:4": 1024 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 1024, "alias": null },
+				"6745:4": { "resolvedValue": 1024, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59111",
+			"name": "Container/container-large",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 1280, "6745:4": 1280 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 1280, "alias": null },
+				"6745:4": { "resolvedValue": 1280, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59112",
+			"name": "Max Width/max-width-xxsmall",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 320, "6745:4": 320 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 320, "alias": null },
+				"6745:4": { "resolvedValue": 320, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59113",
+			"name": "Max Width/max-width-medium",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 560, "6745:4": 560 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 560, "alias": null },
+				"6745:4": { "resolvedValue": 560, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59114",
+			"name": "Max Width/max-width-large",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 768, "6745:4": 768 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 768, "alias": null },
+				"6745:4": { "resolvedValue": 768, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59115",
+			"name": "Max Width/max-width-xsmall",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 400, "6745:4": 400 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 400, "alias": null },
+				"6745:4": { "resolvedValue": 400, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59116",
+			"name": "Max Width/max-width-small",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 480, "6745:4": 480 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 480, "alias": null },
+				"6745:4": { "resolvedValue": 480, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59117",
+			"name": "Max Width/max-width-xlarge",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 1024, "6745:4": 1024 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 1024, "alias": null },
+				"6745:4": { "resolvedValue": 1024, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59118",
+			"name": "Max Width/max-width-xxlarge",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 1280, "6745:4": 1280 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 1280, "alias": null },
+				"6745:4": { "resolvedValue": 1280, "alias": null }
+			},
+			"scopes": ["WIDTH_HEIGHT"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59119",
+			"name": "Section Padding/padding-section-small",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 48, "6745:4": 32 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 48, "alias": null },
+				"6745:4": { "resolvedValue": 32, "alias": null }
+			},
+			"scopes": ["GAP"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59120",
+			"name": "Section Padding/padding-section-medium",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 80, "6745:4": 48 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 80, "alias": null },
+				"6745:4": { "resolvedValue": 48, "alias": null }
+			},
+			"scopes": ["GAP"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59121",
+			"name": "Section Padding/padding-section-large",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 112, "6745:4": 64 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 112, "alias": null },
+				"6745:4": { "resolvedValue": 64, "alias": null }
+			},
+			"scopes": ["GAP"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		},
+		{
+			"id": "VariableID:6745:59122",
+			"name": "Page Padding/padding-global",
+			"description": "",
+			"type": "FLOAT",
+			"valuesByMode": { "6745:3": 64, "6745:4": 20 },
+			"resolvedValuesByMode": {
+				"6745:3": { "resolvedValue": 64, "alias": null },
+				"6745:4": { "resolvedValue": 20, "alias": null }
+			},
+			"scopes": ["GAP"],
+			"hiddenFromPublishing": false,
+			"codeSyntax": {}
+		}
+	]
+}
