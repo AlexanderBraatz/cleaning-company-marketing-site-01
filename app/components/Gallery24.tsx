@@ -2,6 +2,10 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import teamOne from '@/public/images/team-son-group-photo.jpg';
+import teamTwo from '@/public/images/two-team-cleaning-window.jpg';
+import teamThree from '@/public/images/two-team-cleaning-window.jpg';
+import Image from 'next/image';
 
 const useRelume = () => {
 	const transformRef = useRef(null);
@@ -41,28 +45,34 @@ export function Gallery24() {
 					>
 						<a className="inline-block max-w-full">
 							<div className="relative size-full max-w-full overflow-hidden">
-								<img
-									className="h-[80vh] max-h-[25rem] object-cover sm:max-h-[30rem] sm:w-[90vw] md:max-h-[40rem] md:w-[80vw] lg:max-h-none"
-									src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-									alt="Relume placeholder image 1"
+								<Image
+									src={teamOne}
+									alt="two team cleaning window"
+									className="size-full object-cover"
+									width={1024}
+									height={1024}
 								/>
 							</div>
 						</a>
 						<a className="inline-block max-w-full">
 							<div className="relative size-full max-w-full overflow-hidden">
-								<img
-									className="h-[80vh] max-h-[25rem] object-cover sm:max-h-[30rem] sm:w-[90vw] md:max-h-[40rem] md:w-[80vw] lg:max-h-none"
-									src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-									alt="Relume placeholder image 2"
+								<Image
+									src={teamTwo}
+									alt="two team cleaning window"
+									className="size-full object-cover"
+									width={1024}
+									height={1024}
 								/>
 							</div>
 						</a>
 						<a className="inline-block max-w-full">
 							<div className="relative size-full max-w-full overflow-hidden">
-								<img
-									className="h-[80vh] max-h-[25rem] object-cover sm:max-h-[30rem] sm:w-[90vw] md:max-h-[40rem] md:w-[80vw] lg:max-h-none"
-									src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-									alt="Relume placeholder image 3"
+								<Image
+									src={teamThree}
+									alt="two team cleaning window"
+									className="size-full object-cover"
+									width={1024}
+									height={1024}
 								/>
 							</div>
 						</a>

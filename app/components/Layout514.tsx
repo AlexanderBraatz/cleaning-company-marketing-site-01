@@ -1,4 +1,8 @@
 'use client';
+import One from '@/public/images/team-face-dusting.jpg';
+import Two from '@/public/images/team-many-arms.jpg';
+import Three from '@/public/images/team-hand-on-sink.jpg';
+import Four from '@/public/images/team-boss-jumping.jpg';
 
 import { useTabletOrMobile } from '@/app/hooks/useTabletOrMobile';
 import {
@@ -8,6 +12,7 @@ import {
 	useTransform
 } from 'framer-motion';
 import { Fragment, ReactNode, useRef } from 'react';
+import Image from 'next/image';
 
 const ConditionalRender = ({
 	condition,
@@ -139,41 +144,49 @@ export function Layout514() {
 				<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-20">
 					<div className="hidden md:grid md:grid-cols-1 md:gap-4">
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-1-portrait.svg"
-								alt="Relume placeholder image 1"
-								className="size-full"
+							<Image
+								src={One}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-2-portrait.svg"
-								alt="Relume placeholder image 2"
-								className="size-full"
+							<Image
+								src={Two}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-3-portrait.svg"
-								alt="Relume placeholder image 3"
-								className="size-full"
+							<Image
+								src={Three}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-4-portrait.svg"
-								alt="Relume placeholder image 4"
-								className="size-full"
+							<Image
+								src={Four}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 					</div>
-					<div className="flex flex-col gap-y-16 md:sticky md:top-20 md:h-[calc(100vh_-10rem)] md:justify-center">
-						<div className="flex flex-col">
+					<div className="flex flex-col gap-y-16 md:sticky md:top-40 md:pb-20 md:h-[calc(100vh_-10rem)] md:justify-between">
+						<div className="flex  flex-col">
 							<p className="mb-3 font-semibold md:mb-4">Qualität</p>
 							<h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
 								Warum AK Crystal Clean wählen
 							</h2>
-							<p className="md:text-md">
+							<p className="md:text-md mb-8">
 								Wir setzen auf Zuverlässigkeit und persönliche Betreuung. Unser
 								Team arbeitet mit modernen Methoden und umweltfreundlichen
 								Produkten für Ihre Zufriedenheit.

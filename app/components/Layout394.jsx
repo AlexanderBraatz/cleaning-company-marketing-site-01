@@ -3,6 +3,13 @@
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
 import { Button } from '../relume-manually-added-components/Button';
+import grundReinigungImage from '@/public/images/team-standing-with-mop.jpg';
+import pflasterstinImage from '@/public/images/maschine-stone-cleaner.jpg';
+import HausmeisterImage from '@/public/images/mashine-mop.jpg';
+import solarImage from '@/public/images/maschine-solarpanel-cleaning.jpg';
+import IndustrieImage from '@/public/images/machine-mop-2.jpg';
+import ServiceImage from '@/public/images/team-many-arms.jpg';
+import Image from 'next/image';
 
 export function Layout394() {
 	return (
@@ -37,9 +44,11 @@ export function Layout394() {
 							</div>
 						</div>
 						<div className="flex w-full flex-col items-center justify-center self-start">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-								alt="Relume placeholder image 1"
+							<Image
+								src={grundReinigungImage}
+								width={1024}
+								height={1024}
+								alt="Picture of the team"
 							/>
 						</div>
 					</div>
@@ -67,9 +76,11 @@ export function Layout394() {
 							</div>
 						</div>
 						<div className="flex w-full flex-col items-center justify-center self-start">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-								alt="Relume placeholder image 1"
+							<Image
+								src={pflasterstinImage}
+								width={1024}
+								height={1024}
+								alt="Picture of the team"
 							/>
 						</div>
 					</div>
@@ -97,9 +108,11 @@ export function Layout394() {
 							</div>
 						</div>
 						<div className="flex w-full flex-col items-center justify-center self-start">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-								alt="Relume placeholder image 1"
+							<Image
+								src={HausmeisterImage}
+								width={1024}
+								height={1024}
+								alt="Picture of the team"
 							/>
 						</div>
 					</div>
@@ -127,9 +140,11 @@ export function Layout394() {
 							</div>
 						</div>
 						<div className="flex w-full flex-col items-center justify-center self-start">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-								alt="Relume placeholder image 1"
+							<Image
+								src={solarImage}
+								width={1024}
+								height={1024}
+								alt="Picture of the team"
 							/>
 						</div>
 					</div>
@@ -157,9 +172,11 @@ export function Layout394() {
 							</div>
 						</div>
 						<div className="flex w-full flex-col items-center justify-center self-start">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-								alt="Relume placeholder image 1"
+							<Image
+								src={IndustrieImage}
+								width={1024}
+								height={1024}
+								alt="Picture of the team"
 							/>
 						</div>
 					</div>
@@ -188,9 +205,11 @@ export function Layout394() {
 							</div>
 						</div>
 						<div className="flex w-full flex-col items-center justify-center self-start">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-								alt="Relume placeholder image 1"
+							<Image
+								src={ServiceImage}
+								width={1024}
+								height={1024}
+								alt="Picture of the team"
 							/>
 						</div>
 					</div>

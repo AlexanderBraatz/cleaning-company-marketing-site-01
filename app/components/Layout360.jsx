@@ -3,6 +3,9 @@
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
 import { Button } from '../relume-manually-added-components/Button';
+import GlasCleaning from '@/public/images/maschine-solarpanel-cleaning.jpg';
+import UnterhlatsReinigungImage from '@/public/images/team-hand-on-sink.jpg';
+import Image from 'next/image';
 
 export function Layout360() {
 	return (
@@ -23,7 +26,7 @@ export function Layout360() {
 					</div>
 				</div>
 				<div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2 md:gap-8">
-					<div className="border border-border   bg-foreground">
+					<div className="border-0   bg-foreground">
 						<div className="p-6 md:p-8 lg:p-12">
 							<p className="mb-2 text-sm font-semibold">Fassaden</p>
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
@@ -53,14 +56,16 @@ export function Layout360() {
 							</div>
 						</div>
 						<div className="flex items-center justify-center">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-								className="size-full object-cover"
-								alt="Relume placeholder image 1"
+							<Image
+								src={GlasCleaning}
+								alt="two team cleaning window"
+								className="size-full object-cover  h-90"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 					</div>
-					<div className="border border-border bg-foreground">
+					<div className="border-0 bg-foreground">
 						<div className="p-6 md:p-8 lg:p-12">
 							<p className="mb-2 text-sm font-semibold">Wartung</p>
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
@@ -90,10 +95,12 @@ export function Layout360() {
 							</div>
 						</div>
 						<div className="flex items-center justify-center">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-								className="size-full object-cover"
-								alt="Relume placeholder image 1"
+							<Image
+								src={UnterhlatsReinigungImage}
+								alt="two team cleaning window"
+								className="size-full object-cover  h-90"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 					</div>

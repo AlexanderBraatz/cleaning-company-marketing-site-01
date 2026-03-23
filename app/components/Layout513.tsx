@@ -1,5 +1,9 @@
 'use client';
 
+import One from '@/public/images/team-boss-focus-arms-crossed.jpg';
+import Two from '@/public/images/maschine-stone-cleaner.jpg';
+import Three from '@/public/images/two-team-cleaning-window.jpg';
+import Four from '@/public/images/team-boss-jumping.jpg';
 import { useTabletOrMobile } from '@/app/hooks/useTabletOrMobile';
 import {
 	AnimatePresence,
@@ -7,6 +11,7 @@ import {
 	useScroll,
 	useTransform
 } from 'framer-motion';
+import Image from 'next/image';
 import { Fragment, ReactNode, useRef } from 'react';
 
 const ConditionalRender = ({
@@ -305,31 +310,39 @@ export function Layout513() {
 					</div>
 					<div className="hidden md:grid md:grid-cols-1 md:gap-4">
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-1-portrait.svg"
-								alt="Relume placeholder image 1"
-								className="size-full"
+							<Image
+								src={One}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-2-portrait.svg"
-								alt="Relume placeholder image 2"
-								className="size-full"
+							<Image
+								src={Two}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-3-portrait.svg"
-								alt="Relume placeholder image 3"
-								className="size-full"
+							<Image
+								src={Three}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 						<div className="h-screen overflow-hidden">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-4-portrait.svg"
-								alt="Relume placeholder image 4"
-								className="size-full"
+							<Image
+								src={Four}
+								alt="two team cleaning window"
+								className="size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</div>
 					</div>
