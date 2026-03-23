@@ -1,8 +1,13 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import { BiLogoDribbble, BiLogoLinkedinSquare } from 'react-icons/bi';
 import { FaXTwitter } from 'react-icons/fa6';
+import one from '@/public/images/team-solo-meditation.jpeg';
+import two from '@/public/images/team-face-dusting.jpg';
+import three from '@/public/images/team-many-arms.jpg';
+import four from '@/public/images/team-boss-focus-arms-crossed.jpg';
 
 export function Team2() {
 	return (
@@ -24,8 +29,8 @@ export function Team2() {
 				<div className="grid grid-cols-1 items-start justify-center gap-x-8 gap-y-12 md:grid-cols-2 md:gap-y-16 lg:grid-cols-4">
 					<div className="flex flex-col text-center">
 						<div className="relative mb-5 size-full overflow-hidden pt-[66%] md:mb-6 md:pt-[100%]">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+							<Image
+								src={one}
 								alt="Relume placeholder image"
 								className="absolute inset-0 size-full object-cover"
 							/>
@@ -52,8 +57,8 @@ export function Team2() {
 					</div>
 					<div className="flex flex-col text-center">
 						<div className="relative mb-5 size-full overflow-hidden pt-[66%] md:mb-6 md:pt-[100%]">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+							<Image
+								src={two}
 								alt="Relume placeholder image"
 								className="absolute inset-0 size-full object-cover"
 							/>
@@ -80,8 +85,8 @@ export function Team2() {
 					</div>
 					<div className="flex flex-col text-center">
 						<div className="relative mb-5 size-full overflow-hidden pt-[66%] md:mb-6 md:pt-[100%]">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+							<Image
+								src={three}
 								alt="Relume placeholder image"
 								className="absolute inset-0 size-full object-cover"
 							/>
@@ -108,8 +113,8 @@ export function Team2() {
 					</div>
 					<div className="flex flex-col text-center">
 						<div className="relative mb-5 size-full overflow-hidden pt-[66%] md:mb-6 md:pt-[100%]">
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+							<Image
+								src={four}
 								alt="Relume placeholder image"
 								className="absolute inset-0 size-full object-cover"
 							/>

@@ -14,7 +14,8 @@ const buttonVariants = cva(
 				primary: 'border-0 bg-accent text-text-primary',
 				secondary:
 					'border-0 text-text-primary bg-[var(--opacity-neutral-darkest-5)]',
-				'secondary-alt': 'border-0 text-text-alternative',
+				'secondary-alt':
+					'border-0 text-text-primary  bg-[var(--opacity-white-80)]',
 				tertiary: 'text-text-primary',
 				link: 'border-0 text-text-primary gap-2',
 				'link-alt': 'border-0 text-text-alternative gap-2',

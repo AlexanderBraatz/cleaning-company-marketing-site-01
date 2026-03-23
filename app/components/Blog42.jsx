@@ -1,8 +1,12 @@
 'use client';
 
+import Image from 'next/image';
 import { Button } from '../relume-manually-added-components/Button';
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
+import one from '@/public/images/team-solo-meditation.jpeg';
+import two from '@/public/images/team-party-group-two.jpeg';
+import three from '@/public/images/team-group-newspaper.jpeg';
 
 export function Blog42() {
 	return (
@@ -32,10 +36,12 @@ export function Blog42() {
 							href="#"
 							className="mb-6 w-full"
 						>
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-								alt="Relume placeholder image"
+							<Image
+								src={one}
+								alt="two team cleaning window"
 								className="aspect-[3/2] size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</a>
 						<div className="rb-4 mb-4 flex w-full items-center justify-start">
@@ -71,11 +77,18 @@ export function Blog42() {
 							href="#"
 							className="mb-6 w-full"
 						>
-							<img
+							<Image
+								src={two}
+								alt="two team cleaning window"
+								className="aspect-[3/2] size-full object-cover"
+								width={1024}
+								height={1024}
+							/>
+							{/* <img
 								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
 								alt="Relume placeholder image"
 								className="aspect-[3/2] size-full object-cover"
-							/>
+							/> */}
 						</a>
 						<div className="rb-4 mb-4 flex w-full items-center justify-start">
 							<p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
@@ -110,10 +123,12 @@ export function Blog42() {
 							href="#"
 							className="mb-6 w-full"
 						>
-							<img
-								src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-								alt="Relume placeholder image"
+							<Image
+								src={three}
+								alt="two team cleaning window"
 								className="aspect-[3/2] size-full object-cover"
+								width={1024}
+								height={1024}
 							/>
 						</a>
 						<div className="rb-4 mb-4 flex w-full items-center justify-start">
