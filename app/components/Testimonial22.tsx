@@ -8,7 +8,7 @@ export function Testimonial22() {
 	return (
 		<section
 			id="relume"
-			className="px-[5%] py-16 md:py-24 lg:py-28"
+			className="px-[5%] theme-color-scheme-5 bg-background-primary   text-text-primary py-16 md:py-24 lg:py-28"
 		>
 			<div className="container">
 				<div className="mb-12 md:mb-18 lg:mb-20">
@@ -20,11 +20,11 @@ export function Testimonial22() {
 					</p>
 				</div>
 				<div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-					<div className="flex w-full flex-col items-start justify-between border border-border-primary p-6 md:p-8">
+					<div className="flex w-full flex-col items-start justify-between bg-foreground-primary border-0 p-6 md:p-8">
 						<div className="rb-5 mb-5 md:mb-6">
 							<div className="mb-8 md:mb-10 lg:mb-12">
 								<img
-									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
+									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo-white.svg"
 									alt="Webflow logo"
 									className="max-h-12"
 								/>
@@ -57,11 +57,11 @@ export function Testimonial22() {
 							</Button>
 						</div>
 					</div>
-					<div className="flex w-full flex-col items-start justify-between border border-border-primary p-6 md:p-8">
+					<div className="flex w-full flex-col items-start justify-between bg-foreground-primary border-0 p-6 md:p-8">
 						<div className="rb-5 mb-5 md:mb-6">
 							<div className="mb-8 md:mb-10 lg:mb-12">
 								<img
-									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
+									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo-white.svg"
 									alt="Webflow logo"
 									className="max-h-12"
 								/>
@@ -94,11 +94,11 @@ export function Testimonial22() {
 							</Button>
 						</div>
 					</div>
-					<div className="flex w-full flex-col items-start justify-between border border-border-primary p-6 md:p-8">
+					<div className="flex w-full flex-col items-start justify-between bg-foreground-primary border-0 p-6 md:p-8">
 						<div className="rb-5 mb-5 md:mb-6">
 							<div className="mb-8 md:mb-10 lg:mb-12">
 								<img
-									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
+									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo-white.svg"
 									alt="Webflow logo"
 									className="max-h-12"
 								/>

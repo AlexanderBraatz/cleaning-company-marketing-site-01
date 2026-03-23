@@ -21,6 +21,7 @@ export function Gallery24() {
 		<section
 			id="relume"
 			ref={transformRef}
+			className="theme-color-scheme-2 bg-background-primary   text-text-primary"
 		>
 			<div className="px-[5%] pt-16 md:pt-24 lg:pt-28">
 				<div className="container text-center">

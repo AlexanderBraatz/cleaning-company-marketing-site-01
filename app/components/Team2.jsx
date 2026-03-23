@@ -8,7 +8,7 @@ export function Team2() {
 	return (
 		<section
 			id="relume"
-			className="px-[5%] py-16 md:py-24 lg:py-28"
+			className="px-[5%] theme-color-scheme-2 bg-background-primary   text-text-primary py-16 md:py-24 lg:py-28"
 		>
 			<div className="container">
 				<div className="mx-auto mb-12 max-w-lg text-center md:mb-18 lg:mb-20">

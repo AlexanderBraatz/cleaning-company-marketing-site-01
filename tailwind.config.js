@@ -192,6 +192,12 @@ const obj = {
 					success: 'var(--text-success)',
 					error: 'var(--text-error)'
 				},
+				accent: {
+					DEFAULT: 'var(--accent)',
+					primary: 'var(--accent-primary)',
+					primary: 'var(--accent-secondary)',
+					primary: 'var(--accent-alternative)'
+				},
 				link: {
 					DEFAULT: 'var(--link)',
 					primary: 'var(--link-primary)',

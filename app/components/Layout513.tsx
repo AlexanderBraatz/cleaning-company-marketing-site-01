@@ -9,7 +9,13 @@ import {
 } from 'framer-motion';
 import { Fragment, ReactNode, useRef } from 'react';
 
-const ConditionalRender = ({ condition, children }: { condition: boolean; children: ReactNode }) => {
+const ConditionalRender = ({
+	condition,
+	children
+}: {
+	condition: boolean;
+	children: ReactNode;
+}) => {
 	return condition ? <>{children}</> : null;
 };
 
@@ -117,7 +123,7 @@ export function Layout513() {
 		<section
 			ref={useSctoll.containerRef}
 			id="relume"
-			className="px-[5%] py-16 md:py-24 lg:py-28"
+			className="px-[5%] theme-color-scheme-6 bg-background-primary   text-text-primary  py-16 md:py-24 lg:py-28"
 		>
 			<div className="container">
 				<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-20">
