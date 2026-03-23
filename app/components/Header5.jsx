@@ -57,7 +57,7 @@ export function Header5() {
 					width={1024}
 					height={1024}
 				/>
-				<div className="absolute inset-0 bg-linear-to-r from-black/90 from-30% to-transparent" />
+				<div className="absolute inset-0 bg-linear-to-r from-[#1e1822]/90 from-30% to-transparent" />
 			</div>
 		</section>
 	);
