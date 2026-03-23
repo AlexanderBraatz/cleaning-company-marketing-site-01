@@ -1,26 +1,45 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import teamOne from '@/public/images/team-son-group-photo.jpg';
-import teamTwo from '@/public/images/two-team-cleaning-window.jpg';
-import teamThree from '@/public/images/two-team-cleaning-window.jpg';
+import teamTwo from '@/public/images/team-arms-up-sunny.jpeg';
+import teamThree from '@/public/images/team-party-group-two.jpeg';
 import Image from 'next/image';
 
 const useRelume = () => {
-	const transformRef = useRef(null);
+	const transformRef = useRef<HTMLElement>(null);
+	const containerRef = useRef<HTMLDivElement>(null);
+	const [endX, setEndX] = useState(0);
+
+	useEffect(() => {
+		const updateEndX = () => {
+			if (containerRef.current) {
+				const scrollWidth = containerRef.current.scrollWidth;
+				const viewportWidth = window.innerWidth;
+				const fivePercentPadding = window.innerWidth * 0.1;
+				setEndX(-(scrollWidth - viewportWidth + fivePercentPadding));
+			}
+		};
+		updateEndX();
+		window.addEventListener('resize', updateEndX);
+		return () => window.removeEventListener('resize', updateEndX);
+	}, []);
+
 	const { scrollYProgress } = useScroll({
 		target: transformRef
 	});
-	const x = useTransform(scrollYProgress, [0, 1], ['0%', '-100%']);
+	const x = useTransform(scrollYProgress, [0.1, 1], [0, endX]);
 	return {
 		transformRef,
+		containerRef,
 		x
 	};
 };
 
 export function Gallery24() {
-	const { transformRef, x } = useRelume();
+	const { transformRef, containerRef, x } = useRelume();
+	console.log(x);
 	return (
 		<section
 			id="relume"
@@ -38,41 +57,43 @@ export function Gallery24() {
 				</div>
 			</div>
 			<div className="h-[400vh]">
+				{/* the taller the section the slower the sideways scroll */}
 				<div className="sticky top-0 mt-[-10vh] flex h-screen w-screen max-w-full flex-col items-start justify-center overflow-hidden px-[5%] md:mt-0">
 					<motion.div
+						ref={containerRef}
 						style={{ x }}
-						className="flex w-[150vh] items-center gap-x-6 sm:w-[200vh] md:gap-x-8 lg:w-[400vh]"
+						className="flex  w-[150vh] items-center gap-x-6 sm:w-[200vh] md:gap-x-8 lg:w-[300vh]  "
 					>
-						<a className="inline-block max-w-full">
+						<a className="inline-block  h-full max-h-[90vh] max-w-full">
 							<div className="relative size-full max-w-full overflow-hidden">
 								<Image
 									src={teamOne}
 									alt="two team cleaning window"
-									className="size-full object-cover"
-									width={1024}
+									className="h-full w-fit object-cover"
+									width={576}
 									height={1024}
 								/>
 							</div>
 						</a>
-						<a className="inline-block max-w-full">
+						<a className="inline-block  h-full max-h-[90vh] max-w-full">
 							<div className="relative size-full max-w-full overflow-hidden">
 								<Image
 									src={teamTwo}
 									alt="two team cleaning window"
-									className="size-full object-cover"
+									className="h-full w-fit object-cover"
 									width={1024}
 									height={1024}
 								/>
 							</div>
 						</a>
-						<a className="inline-block max-w-full">
+						<a className="inline-block max-h-[90vh] h-full max-w-full">
 							<div className="relative size-full max-w-full overflow-hidden">
 								<Image
 									src={teamThree}
 									alt="two team cleaning window"
-									className="size-full object-cover"
-									width={1024}
-									height={1024}
+									className="h-full w-fit object-cover"
+									width={2048}
+									height={1978}
 								/>
 							</div>
 						</a>
