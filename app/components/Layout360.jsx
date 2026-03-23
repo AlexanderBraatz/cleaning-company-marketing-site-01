@@ -1,14 +1,14 @@
 'use client';
 
-import { Button } from '@relume_io/relume-ui';
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
+import { Button } from '../relume-manually-added-components/Button';
 
 export function Layout360() {
 	return (
 		<section
 			id="relume"
-			className="px-[5%]  theme-light-pink bg-background  py-16 md:py-24 lg:py-28"
+			className="px-[5%]  theme-color-scheme-2 bg-background   text-text-primary py-16 md:py-24 lg:py-28"
 		>
 			<div className="container bg-background">
 				<div className="rb-12 mb-12 md:mb-18 lg:mb-20">
@@ -23,11 +23,11 @@ export function Layout360() {
 					</div>
 				</div>
 				<div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2 md:gap-8">
-					<div className="border border-border-primary bg-foreground">
+					<div className="border border-border   bg-foreground">
 						<div className="p-6 md:p-8 lg:p-12">
 							<p className="mb-2 text-sm font-semibold">Fassaden</p>
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
-								Glas- & Fassadenreinigung
+								Glas & Fassaden reinigung
 							</h3>
 							<p>
 								Wir reinigen Fassaden mit zertifizierten Methoden und
@@ -37,6 +37,8 @@ export function Layout360() {
 								<Button
 									title="Termin anfragen"
 									variant="secondary"
+									className="rounded-[12px]"
+									size="primaryHalf"
 								>
 									Termin anfragen
 								</Button>
@@ -58,11 +60,11 @@ export function Layout360() {
 							/>
 						</div>
 					</div>
-					<div className="border border-border-primary">
+					<div className="border border-border bg-foreground">
 						<div className="p-6 md:p-8 lg:p-12">
 							<p className="mb-2 text-sm font-semibold">Wartung</p>
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
-								Unterhaltsreinigung
+								Unterhalts reinigung
 							</h3>
 							<p>
 								Regelmäßige Unterhaltsreinigung hält Ihre Räume sauber und
@@ -72,6 +74,8 @@ export function Layout360() {
 								<Button
 									title="Termin anfragen"
 									variant="secondary"
+									className="rounded-[12px]"
+									size="primaryHalf"
 								>
 									Termin anfragen
 								</Button>
