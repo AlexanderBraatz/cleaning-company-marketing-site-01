@@ -417,6 +417,312 @@
 	--link-alternative: #0c0a0d;
 }
 
+/* Dark theme 12 — Grape Dusk: deeper, cooler purple-blue to contrast Orchid Bloom */
+.theme-color-scheme-12 {
+	/* BACKGROUND */
+	--background: #2e2840;
+	--background-primary: #2e2840;
+	--background-secondary: #3f3758;
+	--background-tertiary: #9a85c0;
+	--background-alternative: #fdf2ff;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #3f3758;
+	--foreground-primary: #3f3758;
+	--foreground-secondary: #9a85c0;
+	--foreground-tertiary: #c8b0f0;
+	--foreground-alternative: #fdf2ff;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(255, 255, 255, 0.2);
+	--border-primary: rgba(255, 255, 255, 0.2);
+	--border-secondary: rgba(255, 255, 255, 0.1);
+	--border-tertiary: rgba(255, 255, 255, 0.3);
+	--border-alternative: rgba(12, 10, 13, 0.15);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #ffffff;
+	--text-primary: #ffffff;
+	--text-secondary: #b5b0bc;
+	--text-alternative: #0c0a0d;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* ACCENT */
+	--accent: #d9a0f0;
+	--accent-primary: #d9a0f0;
+	--accent-secondary: #ae80c0;
+	--accent-tertiary: #ecc5ff;
+	--accent-alternative: #2e2840;
+
+	/* LINKS */
+	--link: #d9a0f0;
+	--link-primary: #d9a0f0;
+	--link-secondary: #ae80c0;
+	--link-alternative: #0c0a0d;
+}
+
+/* Dark theme 13 — Plum Velvet: warmer, redder purple for richer contrast */
+.theme-color-scheme-13 {
+	/* BACKGROUND */
+	--background: #4a3344;
+	--background-primary: #4a3344;
+	--background-secondary: #63455c;
+	--background-tertiary: #c090b5;
+	--background-alternative: #fdf2ff;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #63455c;
+	--foreground-primary: #63455c;
+	--foreground-secondary: #c090b5;
+	--foreground-tertiary: #e8b8da;
+	--foreground-alternative: #fdf2ff;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(255, 255, 255, 0.2);
+	--border-primary: rgba(255, 255, 255, 0.2);
+	--border-secondary: rgba(255, 255, 255, 0.1);
+	--border-tertiary: rgba(255, 255, 255, 0.3);
+	--border-alternative: rgba(12, 10, 13, 0.15);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #ffffff;
+	--text-primary: #ffffff;
+	--text-secondary: #bab0b7;
+	--text-alternative: #0c0a0d;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* ACCENT */
+	--accent: #e8a0d4;
+	--accent-primary: #e8a0d4;
+	--accent-secondary: #c080aa;
+	--accent-tertiary: #f0c5e5;
+	--accent-alternative: #4a3344;
+
+	/* LINKS */
+	--link: #e8a0d4;
+	--link-primary: #e8a0d4;
+	--link-secondary: #c080aa;
+	--link-alternative: #0c0a0d;
+}
+
+/* Dark theme 14 — Midnight Mauve: darker, almost black with subtle purple cast */
+.theme-color-scheme-14 {
+	/* BACKGROUND */
+	--background: #1e1822;
+	--background-primary: #1e1822;
+	--background-secondary: #2d2533;
+	--background-tertiary: #8a70a0;
+	--background-alternative: #fdf2ff;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #2d2533;
+	--foreground-primary: #2d2533;
+	--foreground-secondary: #8a70a0;
+	--foreground-tertiary: #c4a8e0;
+	--foreground-alternative: #fdf2ff;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(255, 255, 255, 0.15);
+	--border-primary: rgba(255, 255, 255, 0.15);
+	--border-secondary: rgba(255, 255, 255, 0.08);
+	--border-tertiary: rgba(255, 255, 255, 0.25);
+	--border-alternative: rgba(12, 10, 13, 0.15);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #ffffff;
+	--text-primary: #ffffff;
+	--text-secondary: #a8a0b0;
+	--text-alternative: #0c0a0d;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* ACCENT */
+	--accent: #d9a0f0;
+	--accent-primary: #d9a0f0;
+	--accent-secondary: #ae80c0;
+	--accent-tertiary: #ecc5ff;
+	--accent-alternative: #1e1822;
+
+	/* LINKS */
+	--link: #d9a0f0;
+	--link-primary: #d9a0f0;
+	--link-secondary: #ae80c0;
+	--link-alternative: #0c0a0d;
+}
+
+/* Dark theme 15 — Muted Dusk: lighter, softer dark with grey-purple tone */
+.theme-color-scheme-15 {
+	/* BACKGROUND */
+	--background: #55505c;
+	--background-primary: #55505c;
+	--background-secondary: #6a6474;
+	--background-tertiary: #c0b5d0;
+	--background-alternative: #fdf2ff;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #6a6474;
+	--foreground-primary: #6a6474;
+	--foreground-secondary: #c0b5d0;
+	--foreground-tertiary: #ddd0ee;
+	--foreground-alternative: #fdf2ff;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(255, 255, 255, 0.2);
+	--border-primary: rgba(255, 255, 255, 0.2);
+	--border-secondary: rgba(255, 255, 255, 0.1);
+	--border-tertiary: rgba(255, 255, 255, 0.3);
+	--border-alternative: rgba(12, 10, 13, 0.15);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #ffffff;
+	--text-primary: #ffffff;
+	--text-secondary: #c0bcc5;
+	--text-alternative: #0c0a0d;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* ACCENT */
+	--accent: #d9a0f0;
+	--accent-primary: #d9a0f0;
+	--accent-secondary: #b88dd0;
+	--accent-tertiary: #ecc5ff;
+	--accent-alternative: #55505c;
+
+	/* LINKS */
+	--link: #d9a0f0;
+	--link-primary: #d9a0f0;
+	--link-secondary: #b88dd0;
+	--link-alternative: #0c0a0d;
+}
+
+/* Dark theme 16 — Amethyst Night: vivid, saturated purple to match Orchid Bloom's intensity */
+.theme-color-scheme-16 {
+	/* BACKGROUND */
+	--background: #3a2650;
+	--background-primary: #3a2650;
+	--background-secondary: #4e356a;
+	--background-tertiary: #a878d0;
+	--background-alternative: #fdf2ff;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #4e356a;
+	--foreground-primary: #4e356a;
+	--foreground-secondary: #a878d0;
+	--foreground-tertiary: #d0a8f0;
+	--foreground-alternative: #fdf2ff;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(255, 255, 255, 0.2);
+	--border-primary: rgba(255, 255, 255, 0.2);
+	--border-secondary: rgba(255, 255, 255, 0.1);
+	--border-tertiary: rgba(255, 255, 255, 0.3);
+	--border-alternative: rgba(12, 10, 13, 0.15);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #ffffff;
+	--text-primary: #ffffff;
+	--text-secondary: #b8aac5;
+	--text-alternative: #0c0a0d;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* ACCENT */
+	--accent: #d9a0f0;
+	--accent-primary: #d9a0f0;
+	--accent-secondary: #b580d0;
+	--accent-tertiary: #ecc5ff;
+	--accent-alternative: #3a2650;
+
+	/* LINKS */
+	--link: #d9a0f0;
+	--link-primary: #d9a0f0;
+	--link-secondary: #b580d0;
+	--link-alternative: #0c0a0d;
+}
+
+/* Light theme 9 — Orchid Bloom: more saturated purple, exaggerated fef9ff */
+.theme-color-scheme-2 {
+	/* BACKGROUND */
+	--background: #fdf2ff;
+	--background-primary: #fdf2ff;
+	--background-secondary: #f7e0ff;
+	--background-tertiary: #6a4d73;
+	--background-alternative: #0c0a0d;
+	--background-success: #ecfdf3;
+	--background-error: #fef3f2;
+
+	/* FOREGROUND */
+	--foreground: #f7e0ff;
+	--foreground-primary: #f7e0ff;
+	--foreground-secondary: #ecc5ff;
+	--foreground-tertiary: #6a4d73;
+	--foreground-alternative: #0c0a0d;
+	--foreground-success: #ecfdf3;
+	--foreground-error: #fef3f2;
+
+	/* BORDER */
+	--border: rgba(12, 10, 13, 0.15);
+	--border-primary: rgba(12, 10, 13, 0.15);
+	--border-secondary: rgba(12, 10, 13, 0.1);
+	--border-tertiary: rgba(12, 10, 13, 0.3);
+	--border-alternative: rgba(255, 255, 255, 0.2);
+	--border-success: #027a48;
+	--border-error: #b42318;
+
+	/* TEXT */
+	--text: #0c0a0d;
+	--text-primary: #0c0a0d;
+	--text-secondary: #80758a;
+	--text-alternative: #ffffff;
+	--text-success: #027a48;
+	--text-error: #b42318;
+
+	/* ACCENT */
+	--accent: #d9a0f0;
+	--accent-primary: #d9a0f0;
+	--accent-secondary: #ae80c0;
+	--accent-tertiary: #ecc5ff;
+	--accent-alternative: #4a3752;
+
+	/* LINKS */
+	--link: #0c0a0d;
+	--link-primary: #0c0a0d;
+	--link-secondary: #545355;
+	--link-alternative: #ffffff;
+}
+
 @theme inline {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);

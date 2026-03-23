@@ -128,11 +128,11 @@ export function Layout513() {
 		<section
 			ref={useSctoll.containerRef}
 			id="relume"
-			className="px-[5%] theme-color-scheme-6 bg-background-primary   text-text-primary  py-16 md:py-24 lg:py-28"
+			className="px-[5%] theme-color-scheme-14 bg-background-primary   text-text-primary  py-16 md:py-24 lg:py-28"
 		>
 			<div className="container">
 				<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-20">
-					<div className="flex flex-col gap-y-16 md:sticky md:top-20 md:mt-20 md:h-[calc(100vh_-10rem)] md:justify-center">
+					<div className="flex flex-col gap-y-16 md:sticky md:top-40 md:pb-20  md:mt-20 md:h-[calc(100vh_-10rem)] md:justify-between">
 						<div className="flex flex-col">
 							<p className="mb-3 font-semibold md:mb-4">Unterschied</p>
 							<h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">

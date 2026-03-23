@@ -137,7 +137,7 @@ export function Layout514() {
 		<section
 			ref={useScroll.containerRef}
 			id="relume"
-			className="px-[5%] theme-color-scheme-2 bg-background-primary   text-text-primary py-16 md:py-24 lg:py-28"
+			className="px-[5%] theme-color-scheme-14 bg-background-primary   text-text-primary py-16 md:py-24 lg:py-28"
 			// ref={useScroll.containerRef}
 		>
 			<div className="container">

@@ -8,7 +8,7 @@ export function Testimonial22() {
 	return (
 		<section
 			id="relume"
-			className="px-[5%] theme-color-scheme-5 bg-background-primary   text-text-primary py-16 md:py-24 lg:py-28"
+			className="px-[5%] theme-color-scheme-14 bg-background-primary   text-text-primary py-16 md:py-24 lg:py-28"
 		>
 			<div className="container">
 				<div className="mb-12 md:mb-18 lg:mb-20">
