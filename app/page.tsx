@@ -15,12 +15,13 @@ import { Blog42 } from './components/Blog42';
 import { Faq6 } from './components/Faq6';
 import { Cta53 } from './components/Cta53';
 import { Footer7 } from './components/Footer7';
+import { Header30 } from './components/Header30';
 
 export default function Page() {
 	return (
 		<div>
 			<Navbar1 />
-			<Header5 />
+			<Header30 />
 			<Layout360 />
 			<Layout394 />
 			<Layout514 />
