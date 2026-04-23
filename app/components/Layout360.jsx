@@ -3,8 +3,8 @@
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
 import { Button } from '../relume-manually-added-components/Button';
-import GlasCleaning from '@/public/images/maschine-solarpanel-cleaning.jpg';
-import UnterhlatsReinigungImage from '@/public/images/team-hand-on-sink.jpg';
+import GlasCleaning from '@/public/images/team-solo-window-cleaning-outside-insideview-croped.jpg';
+import UnterhlatsReinigungImage from '@/public/images/team-group-hoovering-gym.jpg';
 import Image from 'next/image';
 
 export function Layout360() {
@@ -60,8 +60,8 @@ export function Layout360() {
 								src={GlasCleaning}
 								alt="two team cleaning window"
 								className="size-full object-cover  h-90"
-								width={1024}
-								height={1024}
+								width={2048}
+								height={1365}
 							/>
 						</div>
 					</div>
