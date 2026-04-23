@@ -14,10 +14,10 @@ export function Header30() {
 			<div className="container relative z-10">
 				<div className="flex max-h-[60rem] min-h-svh items-center justify-center py-16 text-center md:py-24 lg:py-28">
 					<div className="w-full max-w-lg">
-						<h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-10xl">
+						<h1 className="mb-5 mt-80 text-6xl font-bold  text-text-primary md:mb-6 md:text-9xl lg:text-10xl">
 							Professionelle Gebäudereinigung aus Gründau
 						</h1>
-						<p className="text-text-alternative md:text-md">
+						<p className="text-text-primary md:text-md">
 							AK Crystal Clean ist ein Meisterbetrieb mit über 20 Jahren
 							Erfahrung. Wir reinigen Ihre Fassaden, Büros und Außenanlagen mit
 							zertifizierten Methoden und umweltfreundlichen Produkten.
@@ -40,15 +40,15 @@ export function Header30() {
 					</div>
 				</div>
 			</div>
-			<div className="absolute inset-0 z-0">
+			<div className="absolute inset-0 z-0 h-100 overflow-hidden ">
 				<Image
 					src={heroImage}
 					alt="two team cleaning window"
-					className="size-full object-cover"
+					className="size-full object-cover relative top-15"
 					width={7008}
 					height={4672}
 				/>
-				<div className="absolute inset-0 bg-black/50" />
+				{/* <div className="absolute inset-0 bg-black/50" /> */}
 			</div>
 		</section>
 	);
