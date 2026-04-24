@@ -11,7 +11,7 @@ export function Layout360() {
 	return (
 		<section
 			id="relume"
-			className="px-[5%]  theme-color-scheme-2 bg-background   text-text-primary py-16 md:py-24 lg:py-28"
+			className="px-[5%]  theme-color-scheme-2 bg-background   text-text-primary pt-16 md:pt-24 lg:pt-28"
 		>
 			<div className="container bg-background">
 				<div className="rb-12 mb-12 md:mb-18 lg:mb-20">
@@ -27,10 +27,19 @@ export function Layout360() {
 				</div>
 				<div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2 md:gap-8">
 					<div className="border-0   bg-foreground">
+						<div className="flex items-center justify-center">
+							<Image
+								src={GlasCleaning}
+								alt="two team cleaning window"
+								className="size-full object-cover  h-90"
+								width={2048}
+								height={1365}
+							/>
+						</div>
 						<div className="p-6 md:p-8 lg:p-12">
-							<p className="mb-2 text-sm font-semibold">Fassaden</p>
+							{/* <p className="mb-2 text-sm font-semibold">Reinigung</p> */}
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
-								Glas & Fassaden reinigung
+								Glas & Fassaden Reinigung
 							</h3>
 							<p>
 								Wir reinigen Fassaden mit zertifizierten Methoden und
@@ -55,19 +64,19 @@ export function Layout360() {
 								</Button>
 							</div>
 						</div>
-						<div className="flex items-center justify-center">
-							<Image
-								src={GlasCleaning}
-								alt="two team cleaning window"
-								className="size-full object-cover  h-90"
-								width={2048}
-								height={1365}
-							/>
-						</div>
 					</div>
 					<div className="border-0 bg-foreground">
+						<div className="flex items-center justify-center">
+							<Image
+								src={UnterhlatsReinigungImage}
+								alt="two team cleaning window"
+								className="size-full object-cover  h-90"
+								width={1024}
+								height={1024}
+							/>
+						</div>
 						<div className="p-6 md:p-8 lg:p-12">
-							<p className="mb-2 text-sm font-semibold">Wartung</p>
+							{/* <p className="mb-2 text-sm font-semibold">Reinigung</p> */}
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
 								Unterhalts reinigung
 							</h3>
@@ -93,15 +102,6 @@ export function Layout360() {
 									Mehr erfahren
 								</Button>
 							</div>
-						</div>
-						<div className="flex items-center justify-center">
-							<Image
-								src={UnterhlatsReinigungImage}
-								alt="two team cleaning window"
-								className="size-full object-cover  h-90"
-								width={1024}
-								height={1024}
-							/>
 						</div>
 					</div>
 				</div>

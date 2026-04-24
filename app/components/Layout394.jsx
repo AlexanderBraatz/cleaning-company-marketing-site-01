@@ -3,38 +3,17 @@
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
 import { Button } from '../relume-manually-added-components/Button';
-import grundReinigungImage from '@/public/images/team-standing-with-mop.jpg';
-import pflasterstinImage from '@/public/images/maschine-stone-cleaner.jpg';
-import HausmeisterImage from '@/public/images/mashine-mop.jpg';
+import wohnungsaufloesung from '@/public/images/team-solo-dusting-2.jpg';
+import pflasterstinImage from '@/public/images/mashine-floorCleaing.jpg';
+import HausmeisterImage from '@/public/images/team-solo-gardening-2.jpg';
 import solarImage from '@/public/images/maschine-solarpanel-cleaning.jpg';
-import IndustrieImage from '@/public/images/machine-mop-2.jpg';
-import ServiceImage from '@/public/images/team-many-arms.jpg';
+import IndustrieImage from '@/public/images/team-mashine-carDealership-2.jpg';
+import EndsorgungImage from '@/public/images/cars-branded.jpg';
 import Image from 'next/image';
 
 export function Layout394() {
 	const cards = [
-		{
-			id: 'grundreinigung-entruempelung',
-			category: 'Reinigung',
-			title: 'Grundreinigung & Entrümpelung',
-			description:
-				'Tiefenreinigung für Wohnungen und Gewerberäume mit professioneller Entrümpelung.',
-			image: grundReinigungImage,
-			width: 1024,
-			height: 1024,
-			alt: 'Picture of the team',
-		},
-		{
-			id: 'pflasterstein-wege',
-			category: 'Reinigung',
-			title: 'Pflasterstein & Wege',
-			description:
-				'Hochdruckreinigung für Wege und Plätze, die wieder wie neu aussehen.',
-			image: pflasterstinImage,
-			width: 1024,
-			height: 1024,
-			alt: 'Picture of the team',
-		},
+		// 3
 		{
 			id: 'hausmeister-aussenanlage',
 			category: 'Service',
@@ -44,21 +23,58 @@ export function Layout394() {
 			image: HausmeisterImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team',
+			alt: 'Picture of the team'
 		},
+		// 4
+		{
+			id: 'pflasterstein-wege',
+			category: 'Reinigung',
+			title: 'Pflasterstein & Wege',
+			description:
+				'Hochdruckreinigung für Wege und Plätze, die wieder wie neu aussehen.',
+			image: pflasterstinImage,
+			width: 1024,
+			height: 1024,
+			alt: 'Picture of the team'
+		},
+		// 5
+		{
+			id: 'wohnungsaufloesung-entruempelung',
+			category: 'Reinigung',
+			title: 'Wohnungsauflösung & Entrümpelung',
+			description: 'Wohnungsauflösung mit professioneller Entrümpelung.',
+			image: wohnungsaufloesung,
+			width: 1024,
+			height: 1024,
+			alt: 'Picture of the team'
+		},
+		// 6
 		{
 			id: 'photovoltaik-dach',
 			category: 'Reinigung',
-			title: 'Photovoltaik & Dach',
+			title: 'Photovoltaik & Dachrinnen',
 			description:
 				'Optimale Leistung und Langlebigkeit Ihrer Anlage durch professionelle Reinigung von Dächern und Photovoltaikanlagen.',
 			image: solarImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team',
+			alt: 'Picture of the team'
 		},
+		// 7
 		{
-			id: 'industrie-kuechen',
+			id: 'entsorgung-recycling',
+			category: 'Service',
+			title: 'Service Kombination',
+			description:
+				'Durch die Kombination von professioneller Entrümpelung mit gründlicher Tiefenreinigung nach Auszug oder Renovierung erzielen wir optimale Ergebnisse für Ihre Immobilie.',
+			image: EndsorgungImage,
+			width: 1024,
+			height: 1024,
+			alt: 'Picture of the team'
+		},
+		// 8
+		{
+			id: 'industrie-reinigung',
 			category: 'Reinigung',
 			title: 'Industriere & Küchen',
 			description:
@@ -66,37 +82,35 @@ export function Layout394() {
 			image: IndustrieImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team',
-		},
-		{
-			id: 'service-kombination',
-			category: 'Service',
-			title: 'Service Kombination',
-			description:
-				'Durch die Kombination von professioneller Entrümpelung mit gründlicher Tiefenreinigung nach Auszug oder Renovierung erzielen wir optimale Ergebnisse für Ihre Immobilie.',
-			image: ServiceImage,
-			width: 1024,
-			height: 1024,
-			alt: 'Picture of the team',
-		},
+			alt: 'Picture of the team'
+		}
 	];
 
 	return (
 		<section
 			id="relume"
-			className="px-[5%]  theme-color-scheme-2 bg-background   text-text-primary py-16 md:py-24 lg:py-28"
+			className="px-[5%]  theme-color-scheme-2 bg-background   text-text-primary pb-16 md:pb-24 lg:pb-28 pt-6 md:pt-8"
 		>
 			<div className="container">
-				<div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20" />
+				{/* <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20" /> */}
 				<div className="grid auto-cols-fr grid-cols-1 gap-6 md:gap-8 lg:grid-cols-3">
-					{cards.map((card) => (
+					{cards.map(card => (
 						<div
 							key={card.id}
 							className="flex flex-col border-0 border-border-primary bg-foreground-primary"
 						>
+							<div className="flex w-full flex-col items-center justify-center self-start">
+								<Image
+									className="object-cover w-full h-90"
+									src={card.image}
+									width={card.width}
+									height={card.height}
+									alt={card.alt}
+								/>
+							</div>
 							<div className="flex flex-1 flex-col justify-between  p-6 md:p-8">
 								<div>
-									<p className="mb-2 font-semibold">{card.category}</p>
+									{/* <p className="mb-2 font-semibold">{card.category}</p> */}
 									<h2 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
 										{card.title}
 									</h2>
@@ -112,14 +126,6 @@ export function Layout394() {
 										Mehr
 									</Button>
 								</div>
-							</div>
-							<div className="flex w-full flex-col items-center justify-center self-start">
-								<Image
-									src={card.image}
-									width={card.width}
-									height={card.height}
-									alt={card.alt}
-								/>
 							</div>
 						</div>
 					))}

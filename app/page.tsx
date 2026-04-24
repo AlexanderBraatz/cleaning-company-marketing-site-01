@@ -22,8 +22,8 @@ export default function Page() {
 		<div>
 			<Navbar1 />
 			<Header30 />
-			<Layout360 />
-			<Layout394 />
+			<Layout360 /> {/*Leistungen 2*/}
+			<Layout394 /> {/*Leistungen other 6*/}
 			<Layout514 />
 			<Layout513 />
 			<Team2 />
