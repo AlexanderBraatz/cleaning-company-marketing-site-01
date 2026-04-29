@@ -1,9 +1,10 @@
 'use client';
 
-import One from '@/public/images/team-boss-focus-arms-crossed.jpg';
-import Two from '@/public/images/maschine-stone-cleaner.jpg';
+import One from '@/public/images/team-tshirtWinner-handingover.jpg';
+import Two from '@/public/images/team-group-men.jpg';
 import Three from '@/public/images/two-team-cleaning-window.jpg';
-import Four from '@/public/images/team-boss-jumping.jpg';
+// import Three from '@/public/images/team-solo-hand-on-sink.jpg'; use this one if i cant get a beter quality verison of the leaning window image
+import Four from '@/public/images/team-solo-manyArms-funny.jpg';
 import { useTabletOrMobile } from '@/app/hooks/useTabletOrMobile';
 import {
 	AnimatePresence,
@@ -309,7 +310,7 @@ export function Layout513() {
 						</div>
 					</div>
 					<div className="hidden md:grid md:grid-cols-1 md:gap-4">
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={One}
 								alt="two team cleaning window"
@@ -318,7 +319,7 @@ export function Layout513() {
 								height={1024}
 							/>
 						</div>
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={Two}
 								alt="two team cleaning window"
@@ -327,7 +328,7 @@ export function Layout513() {
 								height={1024}
 							/>
 						</div>
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={Three}
 								alt="two team cleaning window"
@@ -336,7 +337,7 @@ export function Layout513() {
 								height={1024}
 							/>
 						</div>
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={Four}
 								alt="two team cleaning window"

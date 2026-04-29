@@ -1,8 +1,8 @@
 'use client';
-import One from '@/public/images/team-face-dusting.jpg';
-import Two from '@/public/images/team-many-arms.jpg';
-import Three from '@/public/images/team-hand-on-sink.jpg';
-import Four from '@/public/images/team-boss-jumping.jpg';
+import One from '@/public/images/team-group-arms-outside.jpg';
+import Two from '@/public/images/team-two-happy.jpg';
+import Three from '@/public/images/team-group-inAction-gym.jpg';
+import Four from '@/public/images/team-solo-window-inside.jpg';
 
 import { useTabletOrMobile } from '@/app/hooks/useTabletOrMobile';
 import {
@@ -143,7 +143,7 @@ export function Layout514() {
 			<div className="container">
 				<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-20">
 					<div className="hidden md:grid md:grid-cols-1 md:gap-4">
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={One}
 								alt="two team cleaning window"
@@ -152,7 +152,7 @@ export function Layout514() {
 								height={1024}
 							/>
 						</div>
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={Two}
 								alt="two team cleaning window"
@@ -161,7 +161,7 @@ export function Layout514() {
 								height={1024}
 							/>
 						</div>
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={Three}
 								alt="two team cleaning window"
@@ -170,7 +170,7 @@ export function Layout514() {
 								height={1024}
 							/>
 						</div>
-						<div className="h-screen overflow-hidden">
+						<div className="h-[70vh] overflow-hidden">
 							<Image
 								src={Four}
 								alt="two team cleaning window"
