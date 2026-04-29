@@ -2,11 +2,9 @@
 
 import Image from 'next/image';
 import React from 'react';
-import { FaPhoneAlt } from 'react-icons/fa';
 import { FiPhone } from 'react-icons/fi';
 
 import olga from '@/public/images/team-group-and-olga-fun-cropped.png';
-
 import riener from '@/public/images/team-solo-Reiner-other-boss-cropped.png';
 import mehmet from '@/public/images/team-mehmet-solo-cropped.png';
 import son from '@/public/images/team-son-solo-cropped.png';

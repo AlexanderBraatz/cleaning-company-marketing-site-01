@@ -16,6 +16,8 @@ import { Faq6 } from './components/Faq6';
 import { Cta53 } from './components/Cta53';
 import { Footer7 } from './components/Footer7';
 import { Header30 } from './components/Header30';
+import { Gallery1 } from './components/Gallery1.jsx';
+import { Gallery14 } from './components/Gallery14.jsx';
 
 export default function Page() {
 	return (
@@ -27,7 +29,10 @@ export default function Page() {
 			<Layout514 />
 			<Layout513 />
 			<Team2 />
-			<Gallery24 />
+			{/* <Gallery24 /> */}
+			<Gallery1 />
+			{/* <Gallery14 /> */}
+			{/* a navigatable gallery would be nice but relumes version is broken , unclerar how long it takes to fix*/}
 			<Testimonial22 />
 			<Cta25 />
 			<Stats1 />
