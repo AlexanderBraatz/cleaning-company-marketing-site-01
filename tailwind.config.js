@@ -511,7 +511,7 @@ const obj = {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'loop-horizontally': 'loop-horizontally 20s linear infinite',
+				'loop-horizontally': 'loop-horizontally 60s linear infinite',
 				'loop-testimonials': 'loop-testimonials 30s linear infinite',
 				'loop-vertically': 'loop-vertically 30s linear infinite',
 				'loop-vertically-top': 'loop-vertically-top 50s linear infinite',

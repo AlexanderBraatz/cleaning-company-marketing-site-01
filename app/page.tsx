@@ -11,6 +11,7 @@ import { Testimonial22 } from './components/Testimonial22';
 import { Cta25 } from './components/Cta25';
 import { Stats1 } from './components/Stats1';
 import { Logo6 } from './components/Logo6';
+import { Logo3 } from './components/Logo3';
 import { Blog42 } from './components/Blog42';
 import { Faq6 } from './components/Faq6';
 import { Cta53 } from './components/Cta53';
@@ -24,6 +25,7 @@ export default function Page() {
 		<div>
 			<Navbar1 />
 			<Header30 />
+			<Logo3 />
 			<Layout360 /> {/*Leistungen 2*/}
 			<Layout394 /> {/*Leistungen other 6*/}
 			<Layout514 />
