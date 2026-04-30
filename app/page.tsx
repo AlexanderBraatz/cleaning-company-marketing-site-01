@@ -30,8 +30,8 @@ export default function Page() {
 			<Layout513 />
 			<Team2 />
 			{/* <Gallery24 /> */}
-			<Gallery1 />
-			{/* <Gallery14 /> */}
+			{/* <Gallery1 /> */}
+			<Gallery14 />
 			{/* a navigatable gallery would be nice but relumes version is broken , unclerar how long it takes to fix*/}
 			<Testimonial22 />
 			<Cta25 />

@@ -50,7 +50,7 @@ const useCarousel = () => {
 
 	const currentClassName = index => {
 		return clsx(
-			'aspect-video w-[90vw] size-full object-cover transition-opacity duration-700 ease-linear',
+			'aspect-video size-full object-cover transition-opacity duration-700 ease-linear',
 			{
 				'opacity-30': current !== index + 1
 			}

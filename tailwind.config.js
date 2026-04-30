@@ -3,7 +3,11 @@ import typography from '@tailwindcss/typography';
 
 /** @type {import('tailwindcss').Config} */
 const obj = {
-	content: ['./src/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
+	content: [
+		'./src/**/*.{js,ts,jsx,tsx,mdx}',
+		'./app/**/*.{js,ts,jsx,tsx,mdx}',
+		'./node_modules/@relume_io/relume-ui/dist/**/*.{js,ts,jsx,tsx}'
+	],
 	theme: {
 		screens: {
 			sm: '480px', //was 100% but i had to change it to prevent bug
