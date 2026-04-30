@@ -11,6 +11,8 @@ import clsx from 'clsx';
 import React, { useEffect, useState } from 'react';
 
 import team from '@/public/images/team-group-new-outside.jpg';
+import team2 from '@/public/images/team-group-cleaningProducts.jpg';
+import team3 from '@/public/images/team-boss-center.jpg';
 import Image from 'next/image';
 
 const useCarousel = () => {
@@ -104,7 +106,7 @@ export function Gallery14() {
 								<CarouselItem className="px-2 lg:px-4">
 									<div className="w-full">
 										<Image
-											src={team}
+											src={team2}
 											alt="pictrue of the whole team 2"
 											className={carouselState.currentClassName(1)}
 											width={5151}
@@ -115,7 +117,7 @@ export function Gallery14() {
 								<CarouselItem className="px-2 lg:px-4">
 									<div className="w-full">
 										<Image
-											src={team}
+											src={team3}
 											alt="pictrue of the whole team 3"
 											className={carouselState.currentClassName(2)}
 											width={5151}
