@@ -37,8 +37,8 @@ export default function Page() {
 			{/* a navigatable gallery would be nice but relumes version is broken , unclerar how long it takes to fix*/}
 			<Testimonial22 />
 			<Cta25 />
-			<Stats1 />
-			<Logo6 />
+			{/* <Stats1 /> */}
+			{/* <Logo6 /> */}
 			<Blog42 />
 			<Faq6 />
 			<Cta53 />

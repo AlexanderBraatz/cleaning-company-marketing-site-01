@@ -42,13 +42,14 @@ export function Layout360() {
 								Glas & Fassaden Reinigung
 							</h3>
 							<p>
-								Wir reinigen Fassaden mit zertifizierten Methoden und
-								umweltfreundlichen Produkten für dauerhaft schöne Ergebnisse.
+								Kristallklare Fenster und makellose Fassaden für Wintergärten,
+								Glasfronten und gewerbliche Gebäude, mit zertifizierten Methoden
+								und moderner Technik.
 							</p>
 							<div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
 								<Button
 									title="Termin anfragen"
-									variant="secondary"
+									variant="primary"
 									className="rounded-[12px]"
 									size="primaryHalf"
 								>
@@ -78,16 +79,17 @@ export function Layout360() {
 						<div className="p-6 md:p-8 lg:p-12">
 							{/* <p className="mb-2 text-sm font-semibold">Reinigung</p> */}
 							<h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
-								Unterhalts reinigung
+								Unterhalts- Reinigung
 							</h3>
 							<p>
-								Regelmäßige Unterhaltsreinigung hält Ihre Räume sauber und
-								gepflegt. Flexibel angepasst an Ihre Bedürfnisse.
+								Regelmäßige Reinigung für Büros, Praxen, Fitnessstudios und
+								Gewerbebetriebe, damit Ihre Räume dauerhaft sauber und gepflegt
+								bleiben. Flexibel angepasst an Ihre Bedürfnisse.
 							</p>
 							<div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
 								<Button
 									title="Termin anfragen"
-									variant="secondary"
+									variant="primary"
 									className="rounded-[12px]"
 									size="primaryHalf"
 								>

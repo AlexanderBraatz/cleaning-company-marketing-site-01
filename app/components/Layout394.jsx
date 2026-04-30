@@ -3,6 +3,7 @@
 import React from 'react';
 import { RxChevronRight } from 'react-icons/rx';
 import { Button } from '../relume-manually-added-components/Button';
+import { useRouter } from 'next/navigation';
 import wohnungsaufloesung from '@/public/images/team-solo-dusting-2.jpg';
 import pflasterstinImage from '@/public/images/mashine-floorCleaing.jpg';
 import HausmeisterImage from '@/public/images/team-solo-gardening-2.jpg';
@@ -12,77 +13,95 @@ import EndsorgungImage from '@/public/images/cars-branded.jpg';
 import Image from 'next/image';
 
 export function Layout394() {
+	const router = useRouter();
 	const cards = [
-		// 3
+		// {
+		// 	id: 'glas-fassadenreinigung',
+		// 	category: 'Reinigung',
+		// 	title: 'Glas & Fassadenreinigung',
+		// 	description:
+		// 		'Kristallklare Fenster und makellose Fassaden für Wintergärten, Glasfronten und gewerbliche Gebäude, mit zertifizierten Methoden und moderner Technik.',
+		// 	image: glasFassadenImage,
+		// 	width: 1024,
+		// 	height: 1024,
+		// 	alt: 'Glas- und Fassadenreinigung'
+		// },
+		// {
+		// 	id: 'unterhaltsreinigung',
+		// 	category: 'Reinigung',
+		// 	title: 'Unterhaltsreinigung',
+		// 	description:
+		// 		'Regelmäßige Reinigung für Büros, Praxen, Fitnessstudios und Gewerbebetriebe, damit Ihre Räume dauerhaft sauber und gepflegt bleiben.',
+		// 	image: unterhaltsImage,
+		// 	width: 1024,
+		// 	height: 1024,
+		// 	alt: 'Unterhaltsreinigung'
+		// },
 		{
-			id: 'hausmeister-aussenanlage',
+			id: 'hausmeister',
 			category: 'Service',
-			title: 'Hausmeister & Außenanlage',
+			title: 'Winterdienst & Außenanlage',
 			description:
-				'Umfassende Betreuung Ihrer Außenanlagen und Winterdienste das ganze Jahr.',
+				'Von der Grünpflege im Sommer bis zum Räumdienst im Winter, zuverlässige Betreuung Ihrer Außenanlagen das ganze Jahr über.',
 			image: HausmeisterImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team'
+			alt: 'Winterdienst und Außenanlage'
 		},
-		// 4
 		{
 			id: 'pflasterstein-wege',
 			category: 'Reinigung',
 			title: 'Pflasterstein & Wege',
 			description:
-				'Hochdruckreinigung für Wege und Plätze, die wieder wie neu aussehen.',
+				'Professionelle Hochdruckreinigung für Pflastersteine, Wege und Plätze, Ihr Außenbereich erstrahlt wieder wie neu.',
 			image: pflasterstinImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team'
+			alt: 'Pflasterstein- und Wegereinigung'
 		},
-		// 5
 		{
 			id: 'wohnungsaufloesung-entruempelung',
 			category: 'Reinigung',
-			title: 'Wohnungsauflösung & Entrümpelung',
-			description: 'Wohnungsauflösung mit professioneller Entrümpelung.',
+			title: 'Auflösung & Entrümpelung',
+			description:
+				'Stressfreie Wohnungsauflösung und Entrümpelung, wir kümmern uns schnell und zuverlässig um alles, auf Wunsch inklusive Entsorgung.',
 			image: wohnungsaufloesung,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team'
+			alt: 'Wohnungsauflösung und Entrümpelung'
 		},
-		// 6
 		{
-			id: 'photovoltaik-dach',
+			id: 'solar-dach',
 			category: 'Reinigung',
-			title: 'Photovoltaik & Dachrinnen',
+			title: 'Solar & Dachrinnen',
 			description:
-				'Optimale Leistung und Langlebigkeit Ihrer Anlage durch professionelle Reinigung von Dächern und Photovoltaikanlagen.',
+				'Saubere Solarpanele leisten mehr, wir reinigen Photovoltaikanlagen und Dachrinnen professionell mit moderner Maschinentechnik.',
 			image: solarImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team'
+			alt: 'Solar- und Dachrinnenreinigung'
 		},
-		// 7
 		{
 			id: 'entsorgung-recycling',
 			category: 'Service',
-			title: 'Service Kombination',
+			title: 'Entsorgung & Recycling',
 			description:
-				'Durch die Kombination von professioneller Entrümpelung mit gründlicher Tiefenreinigung nach Auszug oder Renovierung erzielen wir optimale Ergebnisse für Ihre Immobilie.',
+				'Fachgerechte Entsorgung und umweltbewusstes Recycling nach Entrümpelungen oder Renovierungen, alles aus einer Hand.',
 			image: EndsorgungImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team'
+			alt: 'Entsorgung und Recycling'
 		},
-		// 8
 		{
 			id: 'industrie-reinigung',
 			category: 'Reinigung',
-			title: 'Industriere & Küchen',
+			title: 'Industriere & Großküchen',
 			description:
-				'Großküchenmaschinen erstrahlen wieder in neuem Glanz durch professionelle Industriereinigung von Fettablagerungen.',
+				'Tiefenreinigung von Produktionshallen, Großküchen und Maschinen, von Fettablagerungen bis zum Dunstabzug, professionell und gründlich.',
 			image: IndustrieImage,
 			width: 1024,
 			height: 1024,
-			alt: 'Picture of the team'
+			alt: 'Industrie- und Großküchenreinigung'
 		}
 	];
 
@@ -97,6 +116,17 @@ export function Layout394() {
 					{cards.map(card => (
 						<div
 							key={card.id}
+							onClick={() => {
+								router.push(`/${card.id}`);
+							}}
+							onKeyDown={e => {
+								if (e.key === 'Enter' || e.key === ' ') {
+									e.preventDefault();
+									router.push(`/${card.id}`);
+								}
+							}}
+							role="link"
+							tabIndex={0}
 							className="flex flex-col border-0 border-border-primary bg-foreground-primary"
 						>
 							<div className="flex w-full flex-col items-center justify-center self-start">
@@ -116,14 +146,23 @@ export function Layout394() {
 									</h2>
 									<p>{card.description}</p>
 								</div>
-								<div className="mt-5 md:mt-6">
+
+								<div className="mt-5 flex flex-wrap items-center gap-4 md:mt-6">
 									<Button
-										title="Mehr"
+										title="Termin anfragen"
+										variant="primary"
+										className="rounded-[12px]"
+										size="primaryHalf"
+									>
+										Termin anfragen
+									</Button>
+									<Button
+										title="Mehr erfahren"
 										variant="link"
 										size="link"
 										iconRight={<RxChevronRight />}
 									>
-										Mehr
+										Mehr erfahren
 									</Button>
 								</div>
 							</div>

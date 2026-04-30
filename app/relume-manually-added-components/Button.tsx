@@ -43,8 +43,7 @@ type CustomProps = {
 };
 
 export interface ButtonProps
-	extends
-		React.ButtonHTMLAttributes<HTMLButtonElement>,
+	extends React.ButtonHTMLAttributes<HTMLButtonElement>,
 		CustomProps,
 		VariantProps<typeof buttonVariants> {}
 
