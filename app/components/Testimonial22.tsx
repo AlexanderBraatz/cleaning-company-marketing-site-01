@@ -3,6 +3,10 @@
 import { Button } from '@relume_io/relume-ui';
 
 import { RxChevronRight } from 'react-icons/rx';
+import privateunterhaltsrienigung from '@/public/images/client-solo-private.jpeg';
+import buisnessunterhaltsreinigung from '@/public/images/client-solo-stock-older.webp';
+import businessFasadenreinigung from '@/public/images/client-solo-stock-young.jpg';
+import Image from 'next/image';
 
 export function Testimonial22() {
 	return (
@@ -22,22 +26,16 @@ export function Testimonial22() {
 				<div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 					<div className="flex w-full flex-col items-start justify-between bg-foreground-primary border-0 p-6 md:p-8">
 						<div className="rb-5 mb-5 md:mb-6">
-							<div className="mb-8 md:mb-10 lg:mb-12">
-								<img
-									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo-white.svg"
-									alt="Webflow logo"
-									className="max-h-12"
-								/>
-							</div>
+							{/* <div className="mb-8 md:mb-10 lg:mb-12"></div> */}
 							<blockquote className="md:text-md">
 								{`"AK Crystal Clean hat unsere Büros verwandelt. Pünktlich,
 								zuverlässig und freundlich."`}
 							</blockquote>
 							<div className="mt-5 flex w-full flex-col items-start gap-4 md:mt-6 md:w-auto md:flex-row md:items-center">
 								<div>
-									<img
-										src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-										alt="Testimonial avatar"
+									<Image
+										src={privateunterhaltsrienigung}
+										alt="privateunterhaltsrienigung"
 										className="size-12 min-h-12 min-w-12 rounded-full object-cover"
 									/>
 								</div>
@@ -47,70 +45,38 @@ export function Testimonial22() {
 								</div>
 							</div>
 						</div>
-						<div className="mt-6 md:mt-8">
-							<Button
-								variant="link"
-								size="link"
-								iconRight={<RxChevronRight />}
-							>
-								Fallstudie lesen
-							</Button>
-						</div>
 					</div>
 					<div className="flex w-full flex-col items-start justify-between bg-foreground-primary border-0 p-6 md:p-8">
 						<div className="rb-5 mb-5 md:mb-6">
-							<div className="mb-8 md:mb-10 lg:mb-12">
-								<img
-									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo-white.svg"
-									alt="Webflow logo"
-									className="max-h-12"
-								/>
-							</div>
 							<blockquote className="md:text-md">
 								{`"Die Fassadenreinigung war beeindruckend. Unser Gebäude sieht
 								wieder wie neu aus."`}
 							</blockquote>
 							<div className="mt-5 flex w-full flex-col items-start gap-4 md:mt-6 md:w-auto md:flex-row md:items-center">
 								<div>
-									<img
-										src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+									<Image
+										src={buisnessunterhaltsreinigung}
 										alt="Testimonial avatar"
 										className="size-12 min-h-12 min-w-12 rounded-full object-cover"
 									/>
 								</div>
 								<div>
 									<p className="font-semibold">Robert Keller</p>
-									<p>Immobilienverwalter, Keller Immobilien</p>
+									<p>Immobilienverwalter, Keller inc.</p>
 								</div>
 							</div>
-						</div>
-						<div className="mt-6 md:mt-8">
-							<Button
-								variant="link"
-								size="link"
-								iconRight={<RxChevronRight />}
-							>
-								Fallstudie lesen
-							</Button>
 						</div>
 					</div>
 					<div className="flex w-full flex-col items-start justify-between bg-foreground-primary border-0 p-6 md:p-8">
 						<div className="rb-5 mb-5 md:mb-6">
-							<div className="mb-8 md:mb-10 lg:mb-12">
-								<img
-									src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo-white.svg"
-									alt="Webflow logo"
-									className="max-h-12"
-								/>
-							</div>
 							<blockquote className="md:text-md">
 								{`"Flexible Leistungen, faire Preise und echte Partnerschaft.
 								Genau das haben wir gesucht."`}
 							</blockquote>
 							<div className="mt-5 flex w-full flex-col items-start gap-4 md:mt-6 md:w-auto md:flex-row md:items-center">
 								<div>
-									<img
-										src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+									<Image
+										src={businessFasadenreinigung}
 										alt="Testimonial avatar"
 										className="size-12 min-h-12 min-w-12 rounded-full object-cover"
 									/>
@@ -120,15 +86,6 @@ export function Testimonial22() {
 									<p>Betriebsleiterin, Richter Industrie</p>
 								</div>
 							</div>
-						</div>
-						<div className="mt-6 md:mt-8">
-							<Button
-								variant="link"
-								size="link"
-								iconRight={<RxChevronRight />}
-							>
-								Fallstudie lesen
-							</Button>
 						</div>
 					</div>
 				</div>
