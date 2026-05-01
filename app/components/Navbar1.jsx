@@ -2,10 +2,12 @@
 
 import { useMediaQuery } from '@relume_io/relume-ui';
 import { Button } from '../relume-manually-added-components/Button';
+import akCrystalCleanLogo from '@/public/images/logo-ak-crystal-clean-horisontal.png';
 
 import { AnimatePresence, motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { RxChevronDown } from 'react-icons/rx';
+import Image from 'next/image';
 
 const useRelume = () => {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -49,10 +51,15 @@ export function Navbar1() {
 			<div className="size-full lg:flex lg:items-center lg:justify-between">
 				<div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
 					<a href="#">
-						<img
-							src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
-							alt="Logo image"
-						/>
+						<div className="">
+							<Image
+								src={akCrystalCleanLogo}
+								alt="AK Crystal Clean Logo"
+								className="h-[50px] w-auto "
+								width={3137}
+								height={500}
+							/>
+						</div>
 					</a>
 					<button
 						className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"
