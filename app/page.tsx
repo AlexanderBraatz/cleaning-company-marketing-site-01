@@ -19,6 +19,8 @@ import { Footer7 } from './components/Footer7';
 import { Header30 } from './components/Header30';
 import { Gallery1 } from './components/Gallery1.jsx';
 import { Gallery14 } from './components/Gallery14.jsx';
+import { Layout121 } from './components/Layout121.jsx';
+import { Cta25GoTOServices } from './components/Cta25GoTOServices.jsx';
 
 export default function Page() {
 	return (
@@ -27,7 +29,9 @@ export default function Page() {
 			<Header30 />
 			<Logo3 />
 			<Layout360 /> {/*Leistungen 2*/}
-			<Layout394 /> {/*Leistungen other 6*/}
+			{/* <Layout394 /> Leistungen other 6 */}
+			<Cta25GoTOServices />
+			<Layout121 />
 			<Layout514 />
 			<Layout513 />
 			<Team2 />

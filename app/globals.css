@@ -750,7 +750,7 @@ h4,
 h5,
 h6 {
 	font-family: var(--font-sabon), Georgia, serif;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 p {
