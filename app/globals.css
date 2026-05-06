@@ -215,6 +215,14 @@
 	--link-primary: #0c0a0d;
 	--link-secondary: #545355;
 	--link-alternative: #ffffff;
+
+	/* Partner logo strip: monochrome mauve (raster images via filter chain) */
+	--logo-partner-filter: grayscale(1) sepia(1) saturate(1.25) hue-rotate(268deg)
+		brightness(0.94) contrast(1.02);
+}
+
+.logo-partner-mauve-mono {
+	filter: var(--logo-partner-filter);
 }
 
 .theme-color-scheme-3 {
@@ -738,7 +746,7 @@
 }
 
 body {
-	background: #fee402;
+	background: #fff;
 	color: #0c0a0d;
 	font-family: Arial, Helvetica, sans-serif;
 }

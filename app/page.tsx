@@ -17,6 +17,8 @@ import { Faq6 } from './components/Faq6';
 import { Cta53 } from './components/Cta53';
 import { Footer7 } from './components/Footer7';
 import { Header30 } from './components/Header30';
+import { Header84 } from './components/Header84.jsx';
+import { HeaderFullwidthImage } from './components/HeaderFullwidthImage.jsx';
 import { Gallery1 } from './components/Gallery1.jsx';
 import { Gallery14 } from './components/Gallery14.jsx';
 import { Layout121 } from './components/Layout121.jsx';
@@ -26,8 +28,12 @@ export default function Page() {
 	return (
 		<div>
 			<Navbar1 />
-			<Header30 />
+			<div className="lg:min-h-18 " />
+			{/* <Header30 /> */}
+			<HeaderFullwidthImage />
+			<Header84 />
 			<Logo3 />
+			{/* <Logo3 /> */}
 			<Layout360 /> {/*Leistungen 2*/}
 			{/* <Layout394 /> Leistungen other 6 */}
 			<Cta25GoTOServices />
